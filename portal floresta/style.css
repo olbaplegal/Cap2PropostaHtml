@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    width: 1000px;
+    margin-left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+header figure {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header h1 {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-bottom: 10px solid #C4D7A2;
+    margin-top: 0;
+}
+
+main{
+    width: 600px;
+    float: left;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+main h2 {
+    border-bottom: 2px solid black;
+    margin: 0;
+    font-size: xx-large;
+    padding-top: 15px;
+    
+}
+
+main h3 {
+    float: right;
+    margin-top: 0;
+    font-size: small;
+    
+}
+
+main em {
+    font-size: large;    
+}
+
+main img {
+    float: left;
+    padding: 20px 25px 25px 0;
+}
+
+main p {
+    text-align: justify;
+}
+
+nav{
+    float: left;
+    width: 150px;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav ul li {
+    border-top: 1px solid black;
+    list-style: none;
+    padding: 10px 0px 10px 10px;
+    
+}
+
+nav ul li:last-child {
+    border-bottom: 1px solid black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+aside{
+    float: right;
+    width: 175px;;
+}
+
+aside div {
+    padding-bottom: 20px;
+}
+
+aside h2 {
+    margin-bottom: 0;
+    border-bottom: 1px solid #C4D7A2;
+}
+
+aside h3 {
+    color: #C4D7A2;
+    float: right;
+    margin-top: 0;
+}
+
+aside p {
+    margin-bottom: 0;
+}
+
+aside a {
+    float: right;
+    color: red;
+}
+
+aside a :last-child{
+    padding-bottom: 20px;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    padding: 5px;
+    border-top: 10px solid #C4D7A2;
+}
